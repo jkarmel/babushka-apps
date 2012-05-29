@@ -1,0 +1,1 @@
+grep dep babbushka-deps/apps/apps.rb | sed "s/dep '//" | sed "s/' do//"
